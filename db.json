@@ -1,0 +1,28 @@
+{
+    "names": [
+      {
+        "id": 1,
+        "first": "Elena",
+        "last": "Gilbert",
+        "email": "elena.gilbert@aol.com"
+      },
+      {
+        "id": 2,
+        "first": "Bonnie",
+        "last": "McCullough",
+        "email": "b0nn13@gmail.com"
+      },
+      {
+        "id": 3,
+        "first": "Meredith",
+        "last": "Sulez",
+        "email": "msulez12@aol.com"
+      },
+      {
+        "id": 4,
+        "name": "Katherine",
+        "restaurant": "von Schwartzchild",
+        "email": "kvs_99@yahoo.com"
+      }
+    ]
+  }

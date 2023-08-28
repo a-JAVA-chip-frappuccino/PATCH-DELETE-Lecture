@@ -1,0 +1,15 @@
+{
+    "name": "patch-delete-lecture",
+    "version": "1.0.0",
+    "description": "introduce patch and delete requests to a json file",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha --timeout 5000"
+    },
+    "dependencies": {
+        "chai": "^4.2.0",
+        "jsdom": "^9.0",
+        "mocha": "5.2.0",
+        "mocha-jsdom": "~1.1.0"
+      }
+  }
