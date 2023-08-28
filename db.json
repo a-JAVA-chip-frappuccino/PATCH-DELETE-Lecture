@@ -4,25 +4,29 @@
         "id": 1,
         "first": "Elena",
         "last": "Gilbert",
-        "email": "elena.gilbert@aol.com"
+        "email": "elena.gilbert@aol.com",
+        "image": "https://tv-fanatic-res.cloudinary.com/iu/s--xbZzIOGl--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1596494099/attachment/elena-2.jpg"
       },
       {
         "id": 2,
         "first": "Bonnie",
         "last": "McCullough",
-        "email": "b0nn13@gmail.com"
+        "email": "b0nn13@gmail.com",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/vampire-diaries-kat-graham-bonnie-news-1605884458.jpg?resize=1200:*"
       },
       {
         "id": 3,
         "first": "Meredith",
         "last": "Sulez",
-        "email": "msulez12@aol.com"
+        "email": "msulez12@aol.com",
+        "image": "not found"
       },
       {
         "id": 4,
-        "name": "Katherine",
-        "restaurant": "von Schwartzchild",
-        "email": "kvs_99@yahoo.com"
+        "first": "Katherine",
+        "last": "von Schwartzchild",
+        "email": "kvs_99@yahoo.com",
+        "image": "https://tv-fanatic-res.cloudinary.com/iu/s--fO9pzEZM--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1596500348/attachment/katherine.jpg"
       }
     ]
   }
