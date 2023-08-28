@@ -30,7 +30,19 @@ function renderChars(characters) {
 
         function incrementLikes(e) {
             // perform PATCH request to character's ID
-            // update character's likes on page
+            // pessmimistically update character's likes on page
+            const newLikesObj = {"likes" : parseInt(likes.textContent) + 1}
+
+            fetch(`http://localhost:3000/names/${character.id}`,
+            {
+                method : 'PATCH',
+                headers : {
+                    'Content-type' : 'application/json'
+                },
+                body : JSON.stringify(newLikesObj)
+            })
+            .then((resp) => resp.json())
+            .then((data) => likes.textContent = data.likes) // renders character's PATCHed likes to page
         }
 
         // add delete button to character
@@ -38,10 +50,16 @@ function renderChars(characters) {
         deleteBtn.textContent = `Delete ${character.first} ${character.last}`
         deleteBtn.addEventListener('click', deleteChar)
         charDiv.appendChild(deleteBtn)
-
+        
         function deleteChar(e) {
             // perform DELETE request to character's ID
-            // remove character from page
+            // pessmimistically remove character from page
+            fetch(`http://localhost:3000/names/${character.id}`,
+            {
+                method: 'DELETE'
+            })
+            .then((resp) => resp.json())
+            .then((data) => charDiv.remove()) // removes character's div
         }
 
         div.appendChild(charDiv)

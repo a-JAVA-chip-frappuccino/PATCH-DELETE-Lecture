@@ -4,28 +4,28 @@
       "id": 1,
       "first": "Elena",
       "last": "Gilbert",
-      "likes": 0,
+      "likes": 5,
       "image": "https://tv-fanatic-res.cloudinary.com/iu/s--xbZzIOGl--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1596494099/attachment/elena-2.jpg"
     },
     {
       "id": 2,
       "first": "Bonnie",
       "last": "Bennet",
-      "likes": 0,
+      "likes": 6,
       "image": "https://hips.hearstapps.com/hmg-prod/images/vampire-diaries-kat-graham-bonnie-news-1605884458.jpg?resize=1200:*"
     },
     {
       "id": 3,
       "first": "Caroline",
       "last": "Forbes",
-      "likes": 0,
+      "likes": 5,
       "image": "https://static.wikia.nocookie.net/vsbattles/images/6/62/The_Vampire_Diaries_-_Caroline_Forbes.jpg/revision/latest?cb=20180719131129"
     },
     {
       "id": 4,
       "first": "Katherine",
       "last": "von Schwartzchild",
-      "likes": 0,
+      "likes": 3,
       "image": "https://tv-fanatic-res.cloudinary.com/iu/s--fO9pzEZM--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1596500348/attachment/katherine.jpg"
     }
   ]
