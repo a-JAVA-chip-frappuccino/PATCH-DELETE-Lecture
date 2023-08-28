@@ -11,3 +11,16 @@
 `open index.html`
 
 ### Make sure to run these in two separate terminals, as we will be using the server terminal continuously as we test each `fetch` request!
+
+#### Steps for PATCH request:
+#### 1. `fetch` user's particular ID
+#### 2. Set headers, method to PATCH, and body
+#### 3. Ensure that body is valid object syntax
+#### 4. Fire patch and return updated JSON object
+
+#### ----
+
+#### Steps for DELETE request:
+#### 1. `fetch` user's particular ID
+#### 2. Set method to DELETE
+#### 3. Fire DELETE and return no JSON object
